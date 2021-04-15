@@ -1,0 +1,32 @@
+.fon_yellow {
+    background: red;
+}
+
+li {
+    font-size: 12px;
+}
+
+.second_class {
+    border: 10px solid black;
+}
+
+.fon_yellow.second_class {
+    background: yellow;
+}
+
+.main_menu .sun {
+    background: pink;
+}
+
+.primer div,
+.primer p {
+    background: red;
+}
+
+#my_id {
+    background: yellow;
+}
+
+[data-anara="name"] {
+    background: pink;
+}

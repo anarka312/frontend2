@@ -1,0 +1,77 @@
+.fon_yellow {
+    background: red;
+}
+
+li {
+    font-size: 12px;
+}
+
+.second_class {
+    border: 10px solid black;
+}
+
+.fon_yellow.second_class {
+    background: yellow;
+}
+
+.main_menu .sun {
+    background: pink;
+}
+
+.primer div,
+.primer p {
+    background: red;
+}
+
+#my_id {
+    background: yellow;
+}
+
+[data-anara="name"] {
+    background: pink;
+}
+
+.urok12 {
+    background-image:url(https://cdn24.img.ria.ru/images/07e4/07/0d/1574265312_0:0:3070:2048_600x0_80_0_0_ff30becbae216becd70dfad55b9c4c6a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 200px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+}
+
+a {
+    display: flex;
+    
+}
+
+.urok12_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.urok12_1 ul {
+    padding: 0;
+}
+
+
+.urok12_1 ul li:nth-child(3) {
+    background-color: red;
+}
+
+.urok12_1 ul li:nth-child(2n) {
+    background-color: red;
+}
+
+.urok12_1 {
+    transition: .5s;
+}
+
+.urok12_1:hover {
+    background-color:brown;
+}
