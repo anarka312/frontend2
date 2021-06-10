@@ -129,18 +129,51 @@
 
 
 
-	// Что такое function 
+	//function ismar(){
+		//alert("hello");
+	//}
+	//ismar();
 
-	let num = 200;
+	//function test_fun(param, param2, param3) {
+		//var number = 10;
+		//var res;
+		//res = number + param + param2 + param3;
 
+		//console.log();
+		//alert(res);
 
-		function name_fun(num){
-			let per_const = 120;
-			let result;
+	//}
 
-			result = per_const + num;
-			console.log(result);
+	//test_fun(20, 1, 3);
+
+	const arr = {
+		name:"Ismar",
+		age: 26,
+		param: {
+			color: "white",
+			nat: "dungan"
 		}
-	name_fun(num);
+	};
 
-	// console.log(num);
+	//console.log(arr.name);
+
+	//delete arr.name;
+	//console.log(arr.name);
+
+	for (let key in arr) {
+		if(typeof(arr [key]) === 'object') {
+
+			for (let key2 in arr[key]) {
+				console.log(arr[key] [key2]);
+
+			}
+
+		} else {
+			console.log(arr[key]);
+
+		}
+
+
+
+		
+	}
