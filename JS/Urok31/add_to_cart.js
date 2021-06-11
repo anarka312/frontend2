@@ -146,34 +146,49 @@
 
 	//test_fun(20, 1, 3);
 
-	const arr = {
-		name:"Ismar",
-		age: 26,
-		param: {
-			color: "white",
-			nat: "dungan"
-		}
-	};
+	//const arr = {
+		//name:"Ismar",
+		//age: 26,
+		//param: {
+			//color: "white",
+			//nat: "dungan"
+		//}
+	//};
 
 	//console.log(arr.name);
 
 	//delete arr.name;
 	//console.log(arr.name);
 
-	for (let key in arr) {
-		if(typeof(arr [key]) === 'object') {
+	//for (let key in arr) {
+		//if(typeof(arr [key]) === 'object') {
 
-			for (let key2 in arr[key]) {
-				console.log(arr[key] [key2]);
+			//for (let key2 in arr[key]) {
+				//console.log(arr[key] [key2]);
 
-			}
+			//}
 
-		} else {
-			console.log(arr[key]);
+		//} else {
+			//console.log(arr[key]);
 
+		//}
+
+	//}
+
+
+
+	// Что такое function 
+
+	let num = 200;
+
+
+		function name_fun(num){
+			let per_const = 120;
+			let result;
+
+			result = per_const + num;
+			console.log(result);
 		}
+	name_fun(num);
 
-
-
-		
-	}
+	// console.log(num);
