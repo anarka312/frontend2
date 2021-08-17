@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 
-body, p, span {
+body,
+p,
+span {
     margin: 0;
 }
 
@@ -13,7 +15,8 @@ body, p, span {
 
 /* Универсальные стили */
 
-.left, .ul_li > li {
+.left,
+.ul_li>li {
     float: left;
 
     /*Float - это обтекание, то есть выравнивание.
@@ -32,9 +35,9 @@ body, p, span {
     margin: 0;
 }
 
-.ul_li li{
+.ul_li li {
     padding: 10px 15px;
-    
+
 
 }
 
@@ -56,9 +59,17 @@ body, p, span {
     margin-left: 10px;
 }
 
-.red {color: red;}
-.orange {color: orange;}
-.blue {color: rgb(14, 109, 163);}
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.blue {
+    color: rgb(14, 109, 163);
+}
 
 
 .dropdown_menu {
@@ -69,6 +80,7 @@ body, p, span {
     width: 100%;
     top: 50px;
     left: 0;
+
 }
 
 .hover_menu li:hover .dropdown_menu {
@@ -83,10 +95,10 @@ body, p, span {
 /* Урок 14 */
 
 .verhnee_menu {
-    background:#f7f7f7;
+    background: #f7f7f7;
     display: inline-block;
     width: 100%;
-} 
+}
 
 .verhnee_menu .ul_li i {
     margin-right: 10px;
@@ -134,12 +146,12 @@ body, p, span {
     color: #4c4b6c;
 }
 
-.center_menu .right > p:first-child {
+.center_menu .right>p:first-child {
     font-weight: bold;
     color: #4c4b6c;
 }
 
-.center_menu .right > p {
+.center_menu .right>p {
     color: #ababab;
 }
 
@@ -163,14 +175,26 @@ body, p, span {
 }
 
 
-.strelka a {position: relative;}
-.nijnee_menu .strelka:hover {
-    background: #2e2e2e;
+.strelka a {
+    position: relative;
 
 }
+
+.nijnee_menu .strelka:hover {
+
+    background-color: #7cd0f5;
+    color: #fff;
+    border-radius: 40px;
+
+
+}
+
+
+
 .nijnee_menu .strelka:after {
     right: 23px;
 }
+
 .strelka a:after {
     content: "›";
     color: #4c4b6c;
@@ -178,28 +202,119 @@ body, p, span {
     position: absolute;
     right: -13px;
     transition: .5s;
+
+
 }
+
 .strelka {
-    padding-right: 15px;
+    padding-right: 25px;
+
 }
+
 .strelka:hover a:after {
     transform: rotate(-90deg);
 }
+
 .right {
     text-align: right;
 }
+
 .right img {
     width: 43%;
     text-align: right;
 }
+
 .nijnee_menu .ul_li {
     display: flex;
     align-items: center;
     height: 50px;
 }
+
 .nijnee_menu .ul_li li {
     height: inherit;
     line-height: 2;
 }
-/* Конец стилей для страницы */
 
+.ul_li li {
+    color: #4c4b6c;
+    font: 1em sans-serif;
+}
+
+
+.bottom__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+input {
+    border: none;
+    width: 240px;
+    padding-left: 15px;
+    outline: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px 5px 15px;
+    outline: none;
+}
+
+.shopcard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-shopping-bag {
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+}
+
+.shopcard__inner {
+    position: relative;
+}
+
+.shopcard__inner>a {
+    display: inline-block;
+    background-color: #ffcc33;
+    padding: 11px 14px;
+    border-radius: 50%;
+}
+
+.shopcard__inner:hover .bag {
+    opacity: 1;
+    visibility: visible;
+}
+
+.shopcard__dropdown {
+    opacity: 0;
+    visibility: hidden;
+    background-color: #fff;
+    position: absolute;
+    top: 45px;
+    left: -200px;
+    box-shadow: 0px 5px 12px rgb(0 0 0 / 20%);
+    z-index: 9;
+}
+
+.shopcard__curr {
+    text-align: center;
+    padding-left: 10px;
+}
+
+
+
+
+
+/* Конец стилей для страницы */

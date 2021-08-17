@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.verhnee_menu {
+    font-size: 18px;
+    color: #828282;
+    display: inline-block;
+    width: 100%;
+}
+
+.ul_li li {
+    float: left;
+
+}
+
+.ul_li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font: 2em bold Times New Roman;
+}
+
+.ul_li li {
+    padding: 10px;
+    border-block-end-style: inset;
+    text-align: justify;
+
+}
+
+.shapka {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+.under_menu h1 {
+
+    width: 124px;
+    font-family: 'Gilroy Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+    margin: 0;
+}
+
+.under_menu h3 {
+    font-family: 'Gilroy Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    margin: 0;
+    padding-bottom: 11px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 940px;
+    margin: 0 auto;
+}
